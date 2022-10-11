@@ -19,7 +19,7 @@ class User
 
     public function addFake(): void
     {
-        for ($i = 1; $i < 100; $i++) {
+        for ($i = 1; $i <= 100; $i++) {
             $this->model->create($this->getFakeUser());
         }
     }
