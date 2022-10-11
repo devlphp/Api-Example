@@ -66,6 +66,8 @@ delete user
 add fake user to the database
 
 
+## SQL
+The table sales is not used yet
 ```sql
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8 */;
