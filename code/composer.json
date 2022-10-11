@@ -1,0 +1,13 @@
+{
+  "name": "api-example/api-example",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.1",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ApiExample\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+key_buffer_size        = 256M
+max_allowed_packet     = 8G
+thread_stack           = 192K
+thread_cache_size      = 8
+
+
+[client-server]
+# Port or socket location where to connect
+# port = 3306
+socket = /run/mysqld/mysqld.sock
+
+# Import all .cnf files from configuration directory
+[mariadbd]
+skip-host-cache
+skip-name-resolve
+skip-networking
+
+!includedir /etc/mysql/mariadb.conf.d/
+!includedir /etc/mysql/conf.d/
